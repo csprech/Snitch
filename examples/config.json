@@ -1,0 +1,23 @@
+{
+  "mission": "Research and summarize public information. Never publish, spend money, delete data, or disclose credentials without human review.",
+  "agents": {"researcher": "SNITCH_RESEARCHER_KEY"},
+  "admin_key_env": "SNITCH_ADMIN_KEY",
+  "review_model": "gpt-6-sol",
+  "auto_quarantine_on_block": true,
+  "review_low_risk": false,
+  "blocked_terms": ["private customer export"],
+  "tools": {
+    "public_lookup": {
+      "agents": ["researcher"],
+      "risk": "low",
+      "url": "https://example.com/your-lookup-endpoint",
+      "timeout": 15
+    },
+    "publish_report": {
+      "agents": ["researcher"],
+      "risk": "high",
+      "url": "https://example.com/your-publish-endpoint",
+      "credential_env": "PUBLISH_SERVICE_TOKEN"
+    }
+  }
+}
