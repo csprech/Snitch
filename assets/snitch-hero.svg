@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">Snitch, the guardrail for AI agents</title>
+<desc id="desc">Orange radar eye monitors an agent action pipeline on a dark grid, with a bold Snitch wordmark.</desc>
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#20262a" stroke-width="1"/></pattern>
+  <linearGradient id="glow" x2="1" y2="1"><stop stop-color="#ffb36a"/><stop offset="1" stop-color="#ff5a1f"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="21"/></filter>
+</defs>
+<rect width="1200" height="480" fill="#101417"/>
+<rect width="1200" height="480" fill="url(#grid)" opacity=".75"/>
+<path d="M0 46H1200M0 434H1200" stroke="#3b4246"/>
+<g fill="#9fa9ad" font-family="monospace" font-size="12" letter-spacing="2"><text x="52" y="31">SNITCH / AGENT SAFETY GATEWAY</text><text x="925" y="31">SYSTEM 001</text><text x="52" y="459">OBSERVE  /  VERIFY  /  INTERRUPT</text><text x="1026" y="459">v0.1.0</text></g>
+<g transform="translate(838 236)">
+  <circle r="161" fill="#ff6b30" opacity=".13" filter="url(#blur)"/>
+  <circle r="156" fill="none" stroke="#333d41" stroke-width="1"/>
+  <circle r="126" fill="none" stroke="#485052" stroke-width="1" stroke-dasharray="2 9"/>
+  <circle r="98" fill="none" stroke="#ff6b30" stroke-width="2"/>
+  <circle r="62" fill="#171c1e" stroke="#ff6b30" stroke-width="2"/>
+  <path d="M-43 0Q0-47 43 0Q0 47-43 0Z" fill="none" stroke="url(#glow)" stroke-width="5"/>
+  <circle r="16" fill="url(#glow)"/>
+  <circle r="6" fill="#101417"/>
+  <path d="M0-173V-139M0 139V173M-173 0H-139M139 0H173" stroke="#ff6b30" stroke-width="2"/>
+  <path d="M-130-130l27 27M130-130l-27 27M-130 130l27-27M130 130l-27-27" stroke="#647075"/>
+  <circle cx="-110" cy="-110" r="5" fill="#ff6b30"/><circle cx="123" cy="-84" r="5" fill="#ff6b30"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="52" y="198" font-size="118" font-weight="900" letter-spacing="-8" fill="#f4f4ec">SNITCH<tspan fill="#ff6b30">.</tspan></text>
+  <text x="57" y="249" fill="#e2e5df" font-size="24" font-weight="700" letter-spacing="1">YOUR AGENTS HAVE A HALL MONITOR.</text>
+  <text x="57" y="291" fill="#a6b0b0" font-size="17">A hard stop between autonomous decisions and real-world tools.</text>
+</g>
+<g font-family="monospace" font-size="12" font-weight="bold" letter-spacing="1">
+  <rect x="55" y="327" width="105" height="32" rx="3" fill="#20332b" stroke="#3aaf6b"/><text x="76" y="348" fill="#8ee3a6">01 ALLOW</text>
+  <rect x="170" y="327" width="112" height="32" rx="3" fill="#3a3021" stroke="#f4a340"/><text x="190" y="348" fill="#ffd18a">02 REVIEW</text>
+  <rect x="292" y="327" width="105" height="32" rx="3" fill="#40251f" stroke="#ff6b30"/><text x="314" y="348" fill="#ffaf8e">03 BLOCK</text>
+</g>
+</svg>
