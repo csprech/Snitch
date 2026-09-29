@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 320" role="img" aria-labelledby="title desc">
+<title id="title">Snitch execution flow</title><desc id="desc">An agent submits a tool action to the Snitch gateway. Rules and review lead to allow and execute, human review, or block and hold. Incidents go to the operator.</desc>
+<rect width="1040" height="320" rx="12" fill="#101417"/>
+<g fill="none" stroke="#4f5a5c" stroke-width="2"><path d="M223 137H286M496 137H558M763 137H824"/><path d="M658 190V253H800"/></g>
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+<rect x="27" y="76" width="196" height="122" rx="8" fill="#1b2428" stroke="#5b686b"/><text x="125" y="122" fill="#f5f4ee" font-size="21" font-weight="700">AI AGENT</text><text x="125" y="152" fill="#a5b2b4" font-size="14">proposes action</text>
+<rect x="286" y="56" width="210" height="162" rx="8" fill="#2b211d" stroke="#ff6b30" stroke-width="2"/><text x="391" y="112" fill="#ff814e" font-size="26" font-weight="900">SNITCH</text><text x="391" y="147" fill="#f5f4ee" font-size="15">policy + AI review</text><text x="391" y="176" fill="#a5b2b4" font-size="13">audit • score • hold</text>
+<rect x="558" y="76" width="205" height="122" rx="8" fill="#1b2428" stroke="#5b686b"/><text x="660" y="122" fill="#f5f4ee" font-size="19" font-weight="700">DECISION</text><text x="660" y="152" fill="#91dda7" font-size="14">allow / review / block</text>
+<rect x="824" y="76" width="188" height="122" rx="8" fill="#183027" stroke="#4db477"/><text x="918" y="122" fill="#f5f4ee" font-size="19" font-weight="700">TOOL</text><text x="918" y="152" fill="#a8dcbc" font-size="14">execute if allowed</text>
+<rect x="800" y="232" width="212" height="62" rx="8" fill="#352820" stroke="#ed9b4a"/><text x="906" y="270" fill="#ffd39a" font-size="16" font-weight="700">HUMAN OPERATOR</text>
+</g>
+<g fill="#ff6b30"><path d="M280 137l-10-5v10zM552 137l-10-5v10zM818 137l-10-5v10zM800 253l-10-5v10z"/></g>
+</svg>
